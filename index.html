@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Cymetria</title>
+    <title>Formulario Practica</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
-        <div class="contenedor">
-            <h1>Formulario de Cymetria</h1>
-            <form action="#" method="post" id="formularioCymetria">
+        <section class="contenedor">
+            <h1>Formulario de Practica</h1>
+            <form action="#" method="post" id="formularioPractica">
                 <label for="nombreCompleto">Nombre completo:</label>
-                <input type="text" id="nombreCompleto" name="nombreCompleto" required>
+                <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Pepito Perez" required>
 
                 <label for="correoElectronico">Correo electrónico:</label>
-                <input type="email" id="correoElectronico" name="correoElectronico" required>
+                <input type="email" id="correoElectronico" name="correoElectronico" placeholder="correo@ejemplo.com" required>
 
                 <label for="numeroTelefono">Número de teléfono:</label>
-                <input type="tel" id="numeroTelefono" name="numeroTelefono" required>
+                <input type="tel" id="numeroTelefono" name="numeroTelefono" placeholder="310 1234567" required>
 
                 <label for="ciudad">Ciudad:</label>
-                <input type="text" id="ciudad" name="ciudad" required>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Bogotá" required>
 
                 <label for="pais">País:</label>
-                <input type="text" id="pais" name="pais" required>
+                <input type="text" id="pais" name="pais"  placeholder="Colombia" required>
 
                 <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje"></textarea>
+                <textarea id="mensaje" name="mensaje" placeholder="Acá puede ingresar información adicional" ></textarea>
 
                 <button type="submit">Enviar</button>
             </form>
-        </div>
+        </section>
     </main>
 </body>
 </html>
